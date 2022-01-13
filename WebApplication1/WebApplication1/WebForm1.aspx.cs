@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using WebApplication1.DataConnection;
 
 namespace WebApplication1
 {
@@ -16,12 +18,27 @@ namespace WebApplication1
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            int id;
-            string tutorialname, tutorialdesc;
-            id = Convert.ToInt32(TextBox1.Text);
-            tutorialname = TextBox2.Text;
-            tutorialdesc = TextBox3.Text;
-            Label4.Text = "tutorial details" + id + "," + tutorialname + "," + tutorialdesc;
+            TutorialDBConnection tutorialDBConnectionObj = new TutorialDBConnection();
+            TutorialModel tutorialModel = new TutorialModel();
+
+            tutorialModel.TutorialId = Convert.ToInt32(txtTutorialId.Text);
+            tutorialModel.TutorialName = txtTutorialName.Text;
+            tutorialModel.TutorialDesc = txtTutorialDesc.Text;
+            tutorialModel.Published = Convert.ToInt32(txtPublished.Text);
+
+            string msg = tutorialDBConnectionObj.InsertTutorial(tutorialModel);
+            lblResult.Text = msg;
+
+            DataTable dtResult = tutorialDBConnectionObj.SelectTutorial();
+            gvTutorialDetails.DataSource = dtResult;
+            gvTutorialDetails.DataBind();
+        }
+
+       
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
