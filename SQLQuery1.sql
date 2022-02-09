@@ -1,0 +1,1 @@
+create table tutorial(tutorial_id int,tutorial_name varchar(20),description varchar(200),published int)

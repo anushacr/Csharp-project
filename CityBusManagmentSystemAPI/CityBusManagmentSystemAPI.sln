@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CityBusManagmentSystemAPI", "CityBusManagmentSystemAPI\CityBusManagmentSystemAPI.csproj", "{760198DC-BCEF-4B7B-ACEB-C68A182F3D1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CityBusManagment.BAL", "CityBusManagment.BAL\CityBusManagment.BAL.csproj", "{E14FD9A7-FC4A-44A3-A8C6-11675B863231}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CityBusManagment.DAL", "CityBusManagment.DAL\CityBusManagment.DAL.csproj", "{EC90E99B-0F45-455D-9063-DE35A1EBA417}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CityBusManagment.Entity", "CityBusManagment.Entity\CityBusManagment.Entity.csproj", "{B6F15D15-40BE-440B-BCF8-111BD0978B7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CityBusManagment.UI", "CityBusManagment.UI\CityBusManagment.UI.csproj", "{B937D083-6C9D-4519-A2AC-AF5B5C84605F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{760198DC-BCEF-4B7B-ACEB-C68A182F3D1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{760198DC-BCEF-4B7B-ACEB-C68A182F3D1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{760198DC-BCEF-4B7B-ACEB-C68A182F3D1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{760198DC-BCEF-4B7B-ACEB-C68A182F3D1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E14FD9A7-FC4A-44A3-A8C6-11675B863231}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E14FD9A7-FC4A-44A3-A8C6-11675B863231}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E14FD9A7-FC4A-44A3-A8C6-11675B863231}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E14FD9A7-FC4A-44A3-A8C6-11675B863231}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC90E99B-0F45-455D-9063-DE35A1EBA417}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC90E99B-0F45-455D-9063-DE35A1EBA417}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC90E99B-0F45-455D-9063-DE35A1EBA417}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC90E99B-0F45-455D-9063-DE35A1EBA417}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6F15D15-40BE-440B-BCF8-111BD0978B7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6F15D15-40BE-440B-BCF8-111BD0978B7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6F15D15-40BE-440B-BCF8-111BD0978B7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6F15D15-40BE-440B-BCF8-111BD0978B7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B937D083-6C9D-4519-A2AC-AF5B5C84605F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B937D083-6C9D-4519-A2AC-AF5B5C84605F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B937D083-6C9D-4519-A2AC-AF5B5C84605F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B937D083-6C9D-4519-A2AC-AF5B5C84605F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ED9C9B5C-DD15-4A2A-99EC-EEB73914870C}
+	EndGlobalSection
+EndGlobal

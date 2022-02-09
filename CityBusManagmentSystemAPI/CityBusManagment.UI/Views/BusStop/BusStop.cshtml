@@ -1,0 +1,31 @@
+﻿@model IEnumerable<CityBusManagment.Entity.Model.BusStop>
+
+
+<div class="row">
+    <div class="col-12">
+        <h3>BusStop</h3>
+        <hr />
+        <table class="table table-light table-bordered table-hover">
+            <thead>
+                <tr>
+                    <th>busStopNo</th>
+                    <th>stopName</th>
+                    <th>arrivalTime</th>
+                    <th>depatureTime</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var busStop in Model)
+                {
+                    <tr>
+                        <td>@busStop.busStopNo</td>
+                        <td>@busStop.stopName</td>
+                        <td>@busStop.arrivalTime</td>
+                        <td>@busStop.depatureTime</td>
+                        
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
